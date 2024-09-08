@@ -422,9 +422,10 @@ h4{
   right: -15px;
 } 
 
+/* had to use position absolute on the chart since it kept messing up the ribbon (asked copilot */
 .contact-chart {
   position: absolute;
-  width: 80%; /* Adjust width as needed */
+  width: 80%;
   height: auto;
   top: 70%; /* Center vertically */
   left: 50%; /* Center horizontally */
