@@ -312,6 +312,10 @@ a:hover {
   font-size: 8px;
   color: #cccccc;
 }
+.rec-text{
+  font-size: 16px;
+  color: black;
+}
 
 .rec-list-item{
   padding: 10px;
@@ -319,6 +323,14 @@ a:hover {
   justify-content: space-between;
   border-bottom: 1px solid #e1e1e1;
 }
+.rec-list-item:hover p{
+  color: #cccccc;
+}
+
+.rec-list-item:hover img{
+  filter: grayscale(100%);
+}
+
 
 .rec-icon{
   margin-right: 20px;
@@ -444,6 +456,13 @@ a:hover {
   right: -15px;
 } 
 
+.contacts-text{
+  font-size: 22pt;
+}
+
+.influencers-text{
+  font-size: 12pt;
+}
 /* had to use position absolute on the chart since it kept messing up the ribbon (asked copilot */
 .contact-chart {
   position: absolute;
