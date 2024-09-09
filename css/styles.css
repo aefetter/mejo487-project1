@@ -627,3 +627,33 @@ a:hover {
   display:flex;
   align-items: center;
 }
+
+/* trying to make some things responsive */
+@media (max-width:600px){
+  .ads-box{
+    height: auto;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important; /* Center align links */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  .footer-links a {
+    margin: 5px 0; /* Add margin between links */
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}

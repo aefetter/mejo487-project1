@@ -286,7 +286,7 @@
   <footer>
     <div class="container">
       <div class="row">
-    <div class="col-md-1"></div>
+    <div class="col-md-1 mobile-hide"></div>
     <div class="col-md-3">
       <div class="footer-links">
         <a href="#">Tutorials</a>
@@ -313,7 +313,11 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
-
+    <script>
+      document.getElementById('nav-toggle').addEventListener('click', function() {
+        document.getElementById('nav-links').classList.toggle('active');
+      });
+  </script>
       
   </body>
 </html>
