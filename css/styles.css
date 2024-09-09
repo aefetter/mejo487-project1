@@ -652,8 +652,4 @@ a:hover {
   .footer-links a {
     margin: 5px 0; /* Add margin between links */
   }
-
-  .mobile-hide {
-    display: none;
-  }
 }
